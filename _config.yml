@@ -98,3 +98,10 @@ friends: [
         href: "#"
     }
 ]
+
+
+
+# Support for LiveRe comments system.
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: MTAyMC81Mjg4MC8yOTM1Nw==
+
