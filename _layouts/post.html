@@ -246,3 +246,18 @@ layout: default
 </div>
 <!-- City版安装代码已完成 -->
 
+<div id="container"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '\{\{ page.date \}\}', #对应文章评论所形成issue的label，默认为文章的url,为了防止url过长导致评论初始化失败，这里设置label为文章yaml中的时间。这一项无需更改，\为转义字符，应用时需要删掉
+  owner: '007Alice', #Github Pages博客所在的github账户名
+  repo: '007Alice.github.io', #Github Pages博客所在仓库名
+  oauth: {
+    client_id: '570ba32b91e8565acf8a', #第1步所申请到的Client ID
+    client_secret: 'def99f17129487bbd5ad7dac61ebf133f71fb620 ',#第1步所申请到的Client Secret
+  },
+})
+gitment.render('container')
+</script>
