@@ -3,7 +3,7 @@ layout:     post
 title:      "（转载）基于 RBAC 权限模型的架构设计"
 subtitle:   "toB 产品，角色，权限。"
 date:       2021-03-12
-author:     "转载"
+author:     "Alice"
 header-img: "img/kelly-sikkema-HprPUHnjDgk-unsplash.jpg"
 tags:
     - 产品
